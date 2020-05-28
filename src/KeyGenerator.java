@@ -44,8 +44,8 @@ public class KeyGenerator extends Application {
     private static long generateKey() {
 
         final long KEY = 322787489; // This is the base key that we use to generate other keys.
-        final int F = 310; // First valid 12-digit number is the 310th multiple of KEY.
-        final int L = 3098; // Last valid 12-digit number is the 3098th multiple of KEY.
+        final int F = 310; // First valid 12-digit number is the 310th multiple of KEY + 467.
+        final int L = 3098; // Last valid 12-digit number is the 3098th multiple of KEY + 467.
         int range = L - F + 1;
         Random random = new Random();
         int i = random.nextInt(range) + F; // Variable i is going to be a number between F & L.
@@ -54,7 +54,7 @@ public class KeyGenerator extends Application {
     }
 
     /* This function converts a key to a string so it can be shown inside a textfield. It also adds
-    a '-' character between every 3 digits so the key becomes more readable */
+    a '-' character between every 3 digits so the key becomes more readable. */
     private static String formatKey(long key) {
 
         StringBuilder formattedKey = new StringBuilder();
