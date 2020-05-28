@@ -1,4 +1,5 @@
-package model;/*
+package model;
+/*
 
 This file is part of Key-Generator.
 
