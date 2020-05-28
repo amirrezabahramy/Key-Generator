@@ -1,0 +1,96 @@
+/*
+
+This file is part of Key-Generator.
+
+    Key-Generator is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Key-Generator is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Key-Generator.  If not, see <https://www.gnu.org/licenses/>.
+
+ */
+
+.generate-btn {
+
+    -fx-background-color: #E17927;
+    -fx-background-radius: 18;
+    -fx-border-width: 1.5;
+    -fx-border-color: black;
+    -fx-border-radius: 18;
+    -fx-text-fill: white;
+    -fx-font: 13 "Century Gothic";
+
+}
+
+.generate-btn:hover {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.generate-btn:pressed {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+}
+
+.copy-btn {
+
+    -fx-background-color: #2776E1;
+    -fx-background-radius: 18;
+    -fx-border-width: 1.5;
+    -fx-border-color: black;
+    -fx-border-radius: 18;
+    -fx-text-fill: white;
+    -fx-font: 13 "Century Gothic";
+
+}
+
+.copy-btn:hover {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.copy-btn:pressed {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+}
+
+.text-field {
+
+    -fx-background-color: #F4DB72;
+    -fx-background-radius: 10;
+    -fx-border-width: 1.5;
+    -fx-border-color: black;
+    -fx-border-radius: 10;
+    -fx-text-fill: blue;
+
+}
+
+.text-field:hover {
+    -fx-background-color: #E4D07D;
+}
+
+.fancy-font {
+
+    -fx-font: 18 "Century Gothic";
+    -fx-stroke-width: 0.5;
+    -fx-stroke: black;
+    -fx-fill: #2776E1;
+
+}
+
+.main-container {
+
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-border-width: 1.5;
+    -fx-border-color: black;
+    -fx-border-radius: 15;
+
+}
