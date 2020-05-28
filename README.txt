@@ -5,8 +5,8 @@ Creator and Designer: Amirreza Bahrami
 ***
 
 To use this application, create a new project using your preferred IDE and
-replace the "src" folder inside your project with the "src" folder given
-in this repository. then copy "LICENSE" and "README.txt" in the root of your project.
+replace the "src" folder inside your project folder with the "src" folder given
+in this repository. then copy "LICENSE" and "README.txt" in the root of your project folder.
 
 ***
 
